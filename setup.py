@@ -22,7 +22,7 @@ signals_require = ['blinker>=1.4.0']
 
 setup(
     name='oauthlib',
-    version=oauthlib.__version__,
+    version='3.2.1',
     description='A generic, spec-compliant, thorough implementation of the OAuth request-signing logic',
     long_description=fread('README.rst'),
     long_description_content_type='text/x-rst',
