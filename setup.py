@@ -23,7 +23,7 @@ signals_require = ['blinker>=1.4.0']
 
 setup(
     name='oauthlib',
-    version=oauthlib.__version__,
+    version='3.3.0',
     description='A generic, spec-compliant, thorough implementation of the OAuth request-signing logic',
     long_description=fread('README.rst'),
     long_description_content_type='text/x-rst',
@@ -33,7 +33,7 @@ setup(
     url='https://github.com/oauthlib/oauthlib',
     platforms='any',
     license='BSD-3-Clause',
-    packages=find_packages(exclude=('docs', 'tests', 'tests.*')),
+    packages=find_packages(exclude=('docs', 'tests', 'tests.*', 'examples')),
     python_requires='>=3.8',
     extras_require={
         'rsa': rsa_require,
