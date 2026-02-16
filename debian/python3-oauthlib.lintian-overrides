@@ -1,0 +1,4 @@
+python3-oauthlib: copyright-without-copyright-notice
+python3-oauthlib: initial-upload-closes-no-bugs
+python3-oauthlib: no-manual-page
+python3-oauthlib: zero-byte-file-in-doc-directory
